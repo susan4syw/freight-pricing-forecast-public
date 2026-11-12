@@ -1,0 +1,28 @@
+{
+  "data_source": "synthetic_only",
+  "seed": 42,
+  "evaluation": "fixed-origin expanding-window; internal validation for early stopping",
+  "test_window_days": 30,
+  "n_folds": 6,
+  "n_contract_predictions": 1080,
+  "contract_mape_mean_over_folds": 0.07190485686768745,
+  "contract_pooled_metrics": {
+    "n": 1080,
+    "mae": 22.019945579489818,
+    "mape": 0.07190485686768745,
+    "wape": 0.0705078444956393,
+    "smape": 0.07057543128054115,
+    "within_15pct": 0.9027777777777778,
+    "n_zero_actual_excluded": 0
+  },
+  "line_pooled_metrics": {
+    "n": 2191,
+    "mae": 22.235553597943014,
+    "mape": 0.07264716756104027,
+    "wape": 0.07126727522321198,
+    "smape": 0.07124393666206663,
+    "within_15pct": 0.9000456412596988,
+    "n_zero_actual_excluded": 0
+  },
+  "note": "Synthetic demonstration results are not the historical client backtest results."
+}

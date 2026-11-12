@@ -1,0 +1,17 @@
+Validation run: November 11, 2026
+
+test_aggregation_conserves_totals (test_pipeline.PipelineTests.test_aggregation_conserves_totals) ... ok
+test_allocation_conserves_contract_total (test_pipeline.PipelineTests.test_allocation_conserves_contract_total) ... ok
+test_current_day_labels_do_not_change_own_features (test_pipeline.PipelineTests.test_current_day_labels_do_not_change_own_features) ... ok
+test_heldout_labels_do_not_change_features (test_pipeline.PipelineTests.test_heldout_labels_do_not_change_features) ... ok
+test_lags_use_calendar_days_despite_missing_dates (test_pipeline.PipelineTests.test_lags_use_calendar_days_despite_missing_dates) ... ok
+test_model_predictions_ignore_future_prices (test_pipeline.PipelineTests.test_model_predictions_ignore_future_prices) ... ok
+test_queries_cannot_overlap_history (test_pipeline.PipelineTests.test_queries_cannot_overlap_history) ... ok
+test_reject_zero_weight_and_conflicting_contract_dates (test_pipeline.PipelineTests.test_reject_zero_weight_and_conflicting_contract_dates) ... ok
+test_validation_is_strictly_before_test (test_pipeline.PipelineTests.test_validation_is_strictly_before_test) ... ok
+test_zero_actual_metric_accounting (test_pipeline.PipelineTests.test_zero_actual_metric_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.832s
+
+OK
